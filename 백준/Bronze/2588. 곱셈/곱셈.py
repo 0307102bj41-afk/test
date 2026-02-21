@@ -1,0 +1,6 @@
+b = int(input())
+a = int(input())
+print(((a-((a//100)*100 + (((a - ((a//100)*100))//10)*10)))*b))
+print((a - ((a//100)*100))//10 * b)
+print((a//100) * b)
+print(a*b)
